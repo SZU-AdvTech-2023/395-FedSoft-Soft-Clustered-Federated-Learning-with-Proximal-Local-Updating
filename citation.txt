@@ -1,0 +1,8 @@
+@article{REPO395,
+    author = "Ruan, Yichen and Joe-Wong, Carlee",
+    journal = "Proceedings of the AAAI Conference on Artificial Intelligence",
+    number = "7",
+    title = "{Fedsoft: Soft clustered federated learning with proximal local updating}",
+    volume = "36",
+    year = "2022"
+}
