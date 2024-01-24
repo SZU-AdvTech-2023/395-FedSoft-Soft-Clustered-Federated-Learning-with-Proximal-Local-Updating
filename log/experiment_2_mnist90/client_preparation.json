@@ -1,0 +1,613 @@
+{
+    "ds_description": "(2) Full mnist and full mnist-rotation-90",
+    "num_clusters": 2,
+    "num_classes": 10,
+    "num_clients": 100,
+    "num_samples_min": 100,
+    "num_samples_max": 201,
+    "num_samples_test_each": 10000,
+    "client_tags": {
+        "client_0": "Mixture of mnist and mnist-rotation-90 data. 0 full mnist, 148 full mnist rotation, total 148 data points.",
+        "client_1": "Mixture of mnist and mnist-rotation-90 data. 2 full mnist, 151 full mnist rotation, total 153 data points.",
+        "client_2": "Mixture of mnist and mnist-rotation-90 data. 4 full mnist, 165 full mnist rotation, total 169 data points.",
+        "client_3": "Mixture of mnist and mnist-rotation-90 data. 6 full mnist, 190 full mnist rotation, total 196 data points.",
+        "client_4": "Mixture of mnist and mnist-rotation-90 data. 6 full mnist, 141 full mnist rotation, total 147 data points.",
+        "client_5": "Mixture of mnist and mnist-rotation-90 data. 7 full mnist, 131 full mnist rotation, total 138 data points.",
+        "client_6": "Mixture of mnist and mnist-rotation-90 data. 12 full mnist, 180 full mnist rotation, total 192 data points.",
+        "client_7": "Mixture of mnist and mnist-rotation-90 data. 9 full mnist, 115 full mnist rotation, total 124 data points.",
+        "client_8": "Mixture of mnist and mnist-rotation-90 data. 12 full mnist, 130 full mnist rotation, total 142 data points.",
+        "client_9": "Mixture of mnist and mnist-rotation-90 data. 16 full mnist, 160 full mnist rotation, total 176 data points.",
+        "client_10": "Mixture of mnist and mnist-rotation-90 data. 14 full mnist, 127 full mnist rotation, total 141 data points.",
+        "client_11": "Mixture of mnist and mnist-rotation-90 data. 14 full mnist, 111 full mnist rotation, total 125 data points.",
+        "client_12": "Mixture of mnist and mnist-rotation-90 data. 19 full mnist, 137 full mnist rotation, total 156 data points.",
+        "client_13": "Mixture of mnist and mnist-rotation-90 data. 13 full mnist, 88 full mnist rotation, total 101 data points.",
+        "client_14": "Mixture of mnist and mnist-rotation-90 data. 27 full mnist, 165 full mnist rotation, total 192 data points.",
+        "client_15": "Mixture of mnist and mnist-rotation-90 data. 28 full mnist, 156 full mnist rotation, total 184 data points.",
+        "client_16": "Mixture of mnist and mnist-rotation-90 data. 31 full mnist, 159 full mnist rotation, total 190 data points.",
+        "client_17": "Mixture of mnist and mnist-rotation-90 data. 33 full mnist, 160 full mnist rotation, total 193 data points.",
+        "client_18": "Mixture of mnist and mnist-rotation-90 data. 19 full mnist, 87 full mnist rotation, total 106 data points.",
+        "client_19": "Mixture of mnist and mnist-rotation-90 data. 26 full mnist, 112 full mnist rotation, total 138 data points.",
+        "client_20": "Mixture of mnist and mnist-rotation-90 data. 25 full mnist, 99 full mnist rotation, total 124 data points.",
+        "client_21": "Mixture of mnist and mnist-rotation-90 data. 41 full mnist, 153 full mnist rotation, total 194 data points.",
+        "client_22": "Mixture of mnist and mnist-rotation-90 data. 23 full mnist, 83 full mnist rotation, total 106 data points.",
+        "client_23": "Mixture of mnist and mnist-rotation-90 data. 27 full mnist, 90 full mnist rotation, total 117 data points.",
+        "client_24": "Mixture of mnist and mnist-rotation-90 data. 28 full mnist, 88 full mnist rotation, total 116 data points.",
+        "client_25": "Mixture of mnist and mnist-rotation-90 data. 45 full mnist, 132 full mnist rotation, total 177 data points.",
+        "client_26": "Mixture of mnist and mnist-rotation-90 data. 29 full mnist, 81 full mnist rotation, total 110 data points.",
+        "client_27": "Mixture of mnist and mnist-rotation-90 data. 47 full mnist, 127 full mnist rotation, total 174 data points.",
+        "client_28": "Mixture of mnist and mnist-rotation-90 data. 31 full mnist, 81 full mnist rotation, total 112 data points.",
+        "client_29": "Mixture of mnist and mnist-rotation-90 data. 29 full mnist, 71 full mnist rotation, total 100 data points.",
+        "client_30": "Mixture of mnist and mnist-rotation-90 data. 48 full mnist, 110 full mnist rotation, total 158 data points.",
+        "client_31": "Mixture of mnist and mnist-rotation-90 data. 47 full mnist, 105 full mnist rotation, total 152 data points.",
+        "client_32": "Mixture of mnist and mnist-rotation-90 data. 48 full mnist, 101 full mnist rotation, total 149 data points.",
+        "client_33": "Mixture of mnist and mnist-rotation-90 data. 36 full mnist, 72 full mnist rotation, total 108 data points.",
+        "client_34": "Mixture of mnist and mnist-rotation-90 data. 53 full mnist, 102 full mnist rotation, total 155 data points.",
+        "client_35": "Mixture of mnist and mnist-rotation-90 data. 49 full mnist, 90 full mnist rotation, total 139 data points.",
+        "client_36": "Mixture of mnist and mnist-rotation-90 data. 43 full mnist, 77 full mnist rotation, total 120 data points.",
+        "client_37": "Mixture of mnist and mnist-rotation-90 data. 60 full mnist, 101 full mnist rotation, total 161 data points.",
+        "client_38": "Mixture of mnist and mnist-rotation-90 data. 51 full mnist, 84 full mnist rotation, total 135 data points.",
+        "client_39": "Mixture of mnist and mnist-rotation-90 data. 66 full mnist, 102 full mnist rotation, total 168 data points.",
+        "client_40": "Mixture of mnist and mnist-rotation-90 data. 75 full mnist, 111 full mnist rotation, total 186 data points.",
+        "client_41": "Mixture of mnist and mnist-rotation-90 data. 59 full mnist, 85 full mnist rotation, total 144 data points.",
+        "client_42": "Mixture of mnist and mnist-rotation-90 data. 45 full mnist, 61 full mnist rotation, total 106 data points.",
+        "client_43": "Mixture of mnist and mnist-rotation-90 data. 53 full mnist, 70 full mnist rotation, total 123 data points.",
+        "client_44": "Mixture of mnist and mnist-rotation-90 data. 61 full mnist, 78 full mnist rotation, total 139 data points.",
+        "client_45": "Mixture of mnist and mnist-rotation-90 data. 82 full mnist, 100 full mnist rotation, total 182 data points.",
+        "client_46": "Mixture of mnist and mnist-rotation-90 data. 62 full mnist, 72 full mnist rotation, total 134 data points.",
+        "client_47": "Mixture of mnist and mnist-rotation-90 data. 65 full mnist, 72 full mnist rotation, total 137 data points.",
+        "client_48": "Mixture of mnist and mnist-rotation-90 data. 70 full mnist, 75 full mnist rotation, total 145 data points.",
+        "client_49": "Mixture of mnist and mnist-rotation-90 data. 53 full mnist, 56 full mnist rotation, total 109 data points.",
+        "client_50": "Mixture of mnist and mnist-rotation-90 data. 60 full mnist, 60 full mnist rotation, total 120 data points.",
+        "client_51": "Mixture of mnist and mnist-rotation-90 data. 78 full mnist, 75 full mnist rotation, total 153 data points.",
+        "client_52": "Mixture of mnist and mnist-rotation-90 data. 91 full mnist, 83 full mnist rotation, total 174 data points.",
+        "client_53": "Mixture of mnist and mnist-rotation-90 data. 80 full mnist, 71 full mnist rotation, total 151 data points.",
+        "client_54": "Mixture of mnist and mnist-rotation-90 data. 77 full mnist, 66 full mnist rotation, total 143 data points.",
+        "client_55": "Mixture of mnist and mnist-rotation-90 data. 91 full mnist, 73 full mnist rotation, total 164 data points.",
+        "client_56": "Mixture of mnist and mnist-rotation-90 data. 70 full mnist, 55 full mnist rotation, total 125 data points.",
+        "client_57": "Mixture of mnist and mnist-rotation-90 data. 110 full mnist, 82 full mnist rotation, total 192 data points.",
+        "client_58": "Mixture of mnist and mnist-rotation-90 data. 87 full mnist, 62 full mnist rotation, total 149 data points.",
+        "client_59": "Mixture of mnist and mnist-rotation-90 data. 108 full mnist, 74 full mnist rotation, total 182 data points.",
+        "client_60": "Mixture of mnist and mnist-rotation-90 data. 85 full mnist, 57 full mnist rotation, total 142 data points.",
+        "client_61": "Mixture of mnist and mnist-rotation-90 data. 93 full mnist, 59 full mnist rotation, total 152 data points.",
+        "client_62": "Mixture of mnist and mnist-rotation-90 data. 96 full mnist, 59 full mnist rotation, total 155 data points.",
+        "client_63": "Mixture of mnist and mnist-rotation-90 data. 118 full mnist, 68 full mnist rotation, total 186 data points.",
+        "client_64": "Mixture of mnist and mnist-rotation-90 data. 101 full mnist, 57 full mnist rotation, total 158 data points.",
+        "client_65": "Mixture of mnist and mnist-rotation-90 data. 87 full mnist, 47 full mnist rotation, total 134 data points.",
+        "client_66": "Mixture of mnist and mnist-rotation-90 data. 128 full mnist, 65 full mnist rotation, total 193 data points.",
+        "client_67": "Mixture of mnist and mnist-rotation-90 data. 115 full mnist, 56 full mnist rotation, total 171 data points.",
+        "client_68": "Mixture of mnist and mnist-rotation-90 data. 71 full mnist, 34 full mnist rotation, total 105 data points.",
+        "client_69": "Mixture of mnist and mnist-rotation-90 data. 127 full mnist, 57 full mnist rotation, total 184 data points.",
+        "client_70": "Mixture of mnist and mnist-rotation-90 data. 71 full mnist, 31 full mnist rotation, total 102 data points.",
+        "client_71": "Mixture of mnist and mnist-rotation-90 data. 138 full mnist, 56 full mnist rotation, total 194 data points.",
+        "client_72": "Mixture of mnist and mnist-rotation-90 data. 102 full mnist, 40 full mnist rotation, total 142 data points.",
+        "client_73": "Mixture of mnist and mnist-rotation-90 data. 147 full mnist, 53 full mnist rotation, total 200 data points.",
+        "client_74": "Mixture of mnist and mnist-rotation-90 data. 130 full mnist, 45 full mnist rotation, total 175 data points.",
+        "client_75": "Mixture of mnist and mnist-rotation-90 data. 84 full mnist, 28 full mnist rotation, total 112 data points.",
+        "client_76": "Mixture of mnist and mnist-rotation-90 data. 102 full mnist, 32 full mnist rotation, total 134 data points.",
+        "client_77": "Mixture of mnist and mnist-rotation-90 data. 96 full mnist, 29 full mnist rotation, total 125 data points.",
+        "client_78": "Mixture of mnist and mnist-rotation-90 data. 154 full mnist, 43 full mnist rotation, total 197 data points.",
+        "client_79": "Mixture of mnist and mnist-rotation-90 data. 93 full mnist, 25 full mnist rotation, total 118 data points.",
+        "client_80": "Mixture of mnist and mnist-rotation-90 data. 103 full mnist, 25 full mnist rotation, total 128 data points.",
+        "client_81": "Mixture of mnist and mnist-rotation-90 data. 103 full mnist, 24 full mnist rotation, total 127 data points.",
+        "client_82": "Mixture of mnist and mnist-rotation-90 data. 164 full mnist, 35 full mnist rotation, total 199 data points.",
+        "client_83": "Mixture of mnist and mnist-rotation-90 data. 159 full mnist, 32 full mnist rotation, total 191 data points.",
+        "client_84": "Mixture of mnist and mnist-rotation-90 data. 92 full mnist, 17 full mnist rotation, total 109 data points.",
+        "client_85": "Mixture of mnist and mnist-rotation-90 data. 164 full mnist, 28 full mnist rotation, total 192 data points.",
+        "client_86": "Mixture of mnist and mnist-rotation-90 data. 102 full mnist, 17 full mnist rotation, total 119 data points.",
+        "client_87": "Mixture of mnist and mnist-rotation-90 data. 98 full mnist, 15 full mnist rotation, total 113 data points.",
+        "client_88": "Mixture of mnist and mnist-rotation-90 data. 154 full mnist, 21 full mnist rotation, total 175 data points.",
+        "client_89": "Mixture of mnist and mnist-rotation-90 data. 102 full mnist, 13 full mnist rotation, total 115 data points.",
+        "client_90": "Mixture of mnist and mnist-rotation-90 data. 157 full mnist, 17 full mnist rotation, total 174 data points.",
+        "client_91": "Mixture of mnist and mnist-rotation-90 data. 91 full mnist, 9 full mnist rotation, total 100 data points.",
+        "client_92": "Mixture of mnist and mnist-rotation-90 data. 171 full mnist, 14 full mnist rotation, total 185 data points.",
+        "client_93": "Mixture of mnist and mnist-rotation-90 data. 160 full mnist, 12 full mnist rotation, total 172 data points.",
+        "client_94": "Mixture of mnist and mnist-rotation-90 data. 158 full mnist, 10 full mnist rotation, total 168 data points.",
+        "client_95": "Mixture of mnist and mnist-rotation-90 data. 166 full mnist, 8 full mnist rotation, total 174 data points.",
+        "client_96": "Mixture of mnist and mnist-rotation-90 data. 128 full mnist, 5 full mnist rotation, total 133 data points.",
+        "client_97": "Mixture of mnist and mnist-rotation-90 data. 123 full mnist, 4 full mnist rotation, total 127 data points.",
+        "client_98": "Mixture of mnist and mnist-rotation-90 data. 197 full mnist, 3 full mnist rotation, total 200 data points.",
+        "client_99": "Mixture of mnist and mnist-rotation-90 data. 102 full mnist, 1 full mnist rotation, total 103 data points."
+    },
+    "mixture": {
+        "client_0": [
+            0,
+            148,
+            148
+        ],
+        "client_1": [
+            2,
+            151,
+            153
+        ],
+        "client_2": [
+            4,
+            165,
+            169
+        ],
+        "client_3": [
+            6,
+            190,
+            196
+        ],
+        "client_4": [
+            6,
+            141,
+            147
+        ],
+        "client_5": [
+            7,
+            131,
+            138
+        ],
+        "client_6": [
+            12,
+            180,
+            192
+        ],
+        "client_7": [
+            9,
+            115,
+            124
+        ],
+        "client_8": [
+            12,
+            130,
+            142
+        ],
+        "client_9": [
+            16,
+            160,
+            176
+        ],
+        "client_10": [
+            14,
+            127,
+            141
+        ],
+        "client_11": [
+            14,
+            111,
+            125
+        ],
+        "client_12": [
+            19,
+            137,
+            156
+        ],
+        "client_13": [
+            13,
+            88,
+            101
+        ],
+        "client_14": [
+            27,
+            165,
+            192
+        ],
+        "client_15": [
+            28,
+            156,
+            184
+        ],
+        "client_16": [
+            31,
+            159,
+            190
+        ],
+        "client_17": [
+            33,
+            160,
+            193
+        ],
+        "client_18": [
+            19,
+            87,
+            106
+        ],
+        "client_19": [
+            26,
+            112,
+            138
+        ],
+        "client_20": [
+            25,
+            99,
+            124
+        ],
+        "client_21": [
+            41,
+            153,
+            194
+        ],
+        "client_22": [
+            23,
+            83,
+            106
+        ],
+        "client_23": [
+            27,
+            90,
+            117
+        ],
+        "client_24": [
+            28,
+            88,
+            116
+        ],
+        "client_25": [
+            45,
+            132,
+            177
+        ],
+        "client_26": [
+            29,
+            81,
+            110
+        ],
+        "client_27": [
+            47,
+            127,
+            174
+        ],
+        "client_28": [
+            31,
+            81,
+            112
+        ],
+        "client_29": [
+            29,
+            71,
+            100
+        ],
+        "client_30": [
+            48,
+            110,
+            158
+        ],
+        "client_31": [
+            47,
+            105,
+            152
+        ],
+        "client_32": [
+            48,
+            101,
+            149
+        ],
+        "client_33": [
+            36,
+            72,
+            108
+        ],
+        "client_34": [
+            53,
+            102,
+            155
+        ],
+        "client_35": [
+            49,
+            90,
+            139
+        ],
+        "client_36": [
+            43,
+            77,
+            120
+        ],
+        "client_37": [
+            60,
+            101,
+            161
+        ],
+        "client_38": [
+            51,
+            84,
+            135
+        ],
+        "client_39": [
+            66,
+            102,
+            168
+        ],
+        "client_40": [
+            75,
+            111,
+            186
+        ],
+        "client_41": [
+            59,
+            85,
+            144
+        ],
+        "client_42": [
+            45,
+            61,
+            106
+        ],
+        "client_43": [
+            53,
+            70,
+            123
+        ],
+        "client_44": [
+            61,
+            78,
+            139
+        ],
+        "client_45": [
+            82,
+            100,
+            182
+        ],
+        "client_46": [
+            62,
+            72,
+            134
+        ],
+        "client_47": [
+            65,
+            72,
+            137
+        ],
+        "client_48": [
+            70,
+            75,
+            145
+        ],
+        "client_49": [
+            53,
+            56,
+            109
+        ],
+        "client_50": [
+            60,
+            60,
+            120
+        ],
+        "client_51": [
+            78,
+            75,
+            153
+        ],
+        "client_52": [
+            91,
+            83,
+            174
+        ],
+        "client_53": [
+            80,
+            71,
+            151
+        ],
+        "client_54": [
+            77,
+            66,
+            143
+        ],
+        "client_55": [
+            91,
+            73,
+            164
+        ],
+        "client_56": [
+            70,
+            55,
+            125
+        ],
+        "client_57": [
+            110,
+            82,
+            192
+        ],
+        "client_58": [
+            87,
+            62,
+            149
+        ],
+        "client_59": [
+            108,
+            74,
+            182
+        ],
+        "client_60": [
+            85,
+            57,
+            142
+        ],
+        "client_61": [
+            93,
+            59,
+            152
+        ],
+        "client_62": [
+            96,
+            59,
+            155
+        ],
+        "client_63": [
+            118,
+            68,
+            186
+        ],
+        "client_64": [
+            101,
+            57,
+            158
+        ],
+        "client_65": [
+            87,
+            47,
+            134
+        ],
+        "client_66": [
+            128,
+            65,
+            193
+        ],
+        "client_67": [
+            115,
+            56,
+            171
+        ],
+        "client_68": [
+            71,
+            34,
+            105
+        ],
+        "client_69": [
+            127,
+            57,
+            184
+        ],
+        "client_70": [
+            71,
+            31,
+            102
+        ],
+        "client_71": [
+            138,
+            56,
+            194
+        ],
+        "client_72": [
+            102,
+            40,
+            142
+        ],
+        "client_73": [
+            147,
+            53,
+            200
+        ],
+        "client_74": [
+            130,
+            45,
+            175
+        ],
+        "client_75": [
+            84,
+            28,
+            112
+        ],
+        "client_76": [
+            102,
+            32,
+            134
+        ],
+        "client_77": [
+            96,
+            29,
+            125
+        ],
+        "client_78": [
+            154,
+            43,
+            197
+        ],
+        "client_79": [
+            93,
+            25,
+            118
+        ],
+        "client_80": [
+            103,
+            25,
+            128
+        ],
+        "client_81": [
+            103,
+            24,
+            127
+        ],
+        "client_82": [
+            164,
+            35,
+            199
+        ],
+        "client_83": [
+            159,
+            32,
+            191
+        ],
+        "client_84": [
+            92,
+            17,
+            109
+        ],
+        "client_85": [
+            164,
+            28,
+            192
+        ],
+        "client_86": [
+            102,
+            17,
+            119
+        ],
+        "client_87": [
+            98,
+            15,
+            113
+        ],
+        "client_88": [
+            154,
+            21,
+            175
+        ],
+        "client_89": [
+            102,
+            13,
+            115
+        ],
+        "client_90": [
+            157,
+            17,
+            174
+        ],
+        "client_91": [
+            91,
+            9,
+            100
+        ],
+        "client_92": [
+            171,
+            14,
+            185
+        ],
+        "client_93": [
+            160,
+            12,
+            172
+        ],
+        "client_94": [
+            158,
+            10,
+            168
+        ],
+        "client_95": [
+            166,
+            8,
+            174
+        ],
+        "client_96": [
+            128,
+            5,
+            133
+        ],
+        "client_97": [
+            123,
+            4,
+            127
+        ],
+        "client_98": [
+            197,
+            3,
+            200
+        ],
+        "client_99": [
+            102,
+            1,
+            103
+        ]
+    }
+}

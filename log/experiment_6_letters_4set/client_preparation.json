@@ -1,0 +1,813 @@
+{
+    "ds_description": "(4) mixture of 4 letters rotattion datasets",
+    "num_clusters": 4,
+    "num_classes": 26,
+    "num_clients": 100,
+    "num_samples_min": 100,
+    "num_samples_max": 201,
+    "num_samples_test_each": 2000,
+    "client_tags": {
+        "client_0": "Mixture of 4 letters distributions with mixture [54, 40, 38, 8], total 140 data points.",
+        "client_1": "Mixture of 4 letters distributions with mixture [127, 6, 5, 6], total 144 data points.",
+        "client_2": "Mixture of 4 letters distributions with mixture [34, 72, 0, 34], total 140 data points.",
+        "client_3": "Mixture of 4 letters distributions with mixture [28, 2, 111, 38], total 179 data points.",
+        "client_4": "Mixture of 4 letters distributions with mixture [122, 35, 28, 5], total 190 data points.",
+        "client_5": "Mixture of 4 letters distributions with mixture [42, 98, 24, 24], total 188 data points.",
+        "client_6": "Mixture of 4 letters distributions with mixture [32, 64, 31, 32], total 159 data points.",
+        "client_7": "Mixture of 4 letters distributions with mixture [73, 17, 31, 49], total 170 data points.",
+        "client_8": "Mixture of 4 letters distributions with mixture [19, 7, 77, 38], total 141 data points.",
+        "client_9": "Mixture of 4 letters distributions with mixture [5, 61, 24, 35], total 125 data points.",
+        "client_10": "Mixture of 4 letters distributions with mixture [102, 25, 18, 7], total 152 data points.",
+        "client_11": "Mixture of 4 letters distributions with mixture [49, 32, 2, 70], total 153 data points.",
+        "client_12": "Mixture of 4 letters distributions with mixture [3, 66, 53, 53], total 175 data points.",
+        "client_13": "Mixture of 4 letters distributions with mixture [7, 35, 20, 65], total 127 data points.",
+        "client_14": "Mixture of 4 letters distributions with mixture [15, 2, 75, 80], total 172 data points.",
+        "client_15": "Mixture of 4 letters distributions with mixture [38, 31, 18, 20], total 107 data points.",
+        "client_16": "Mixture of 4 letters distributions with mixture [11, 52, 20, 62], total 145 data points.",
+        "client_17": "Mixture of 4 letters distributions with mixture [20, 96, 67, 14], total 197 data points.",
+        "client_18": "Mixture of 4 letters distributions with mixture [40, 14, 60, 25], total 139 data points.",
+        "client_19": "Mixture of 4 letters distributions with mixture [19, 26, 15, 44], total 104 data points.",
+        "client_20": "Mixture of 4 letters distributions with mixture [29, 53, 21, 27], total 130 data points.",
+        "client_21": "Mixture of 4 letters distributions with mixture [29, 46, 78, 9], total 162 data points.",
+        "client_22": "Mixture of 4 letters distributions with mixture [35, 72, 33, 9], total 149 data points.",
+        "client_23": "Mixture of 4 letters distributions with mixture [26, 55, 34, 67], total 182 data points.",
+        "client_24": "Mixture of 4 letters distributions with mixture [23, 12, 24, 56], total 115 data points.",
+        "client_25": "Mixture of 4 letters distributions with mixture [79, 37, 12, 48], total 176 data points.",
+        "client_26": "Mixture of 4 letters distributions with mixture [0, 9, 46, 58], total 113 data points.",
+        "client_27": "Mixture of 4 letters distributions with mixture [46, 17, 101, 22], total 186 data points.",
+        "client_28": "Mixture of 4 letters distributions with mixture [46, 71, 8, 54], total 179 data points.",
+        "client_29": "Mixture of 4 letters distributions with mixture [13, 15, 83, 19], total 130 data points.",
+        "client_30": "Mixture of 4 letters distributions with mixture [28, 34, 16, 84], total 162 data points.",
+        "client_31": "Mixture of 4 letters distributions with mixture [7, 64, 23, 76], total 170 data points.",
+        "client_32": "Mixture of 4 letters distributions with mixture [44, 63, 8, 10], total 125 data points.",
+        "client_33": "Mixture of 4 letters distributions with mixture [92, 20, 37, 5], total 154 data points.",
+        "client_34": "Mixture of 4 letters distributions with mixture [72, 97, 22, 3], total 194 data points.",
+        "client_35": "Mixture of 4 letters distributions with mixture [35, 53, 53, 43], total 184 data points.",
+        "client_36": "Mixture of 4 letters distributions with mixture [11, 48, 47, 56], total 162 data points.",
+        "client_37": "Mixture of 4 letters distributions with mixture [31, 108, 22, 20], total 181 data points.",
+        "client_38": "Mixture of 4 letters distributions with mixture [58, 93, 4, 12], total 167 data points.",
+        "client_39": "Mixture of 4 letters distributions with mixture [14, 38, 32, 16], total 100 data points.",
+        "client_40": "Mixture of 4 letters distributions with mixture [28, 36, 107, 10], total 181 data points.",
+        "client_41": "Mixture of 4 letters distributions with mixture [23, 42, 5, 108], total 178 data points.",
+        "client_42": "Mixture of 4 letters distributions with mixture [39, 102, 17, 11], total 169 data points.",
+        "client_43": "Mixture of 4 letters distributions with mixture [8, 33, 7, 120], total 168 data points.",
+        "client_44": "Mixture of 4 letters distributions with mixture [17, 135, 22, 19], total 193 data points.",
+        "client_45": "Mixture of 4 letters distributions with mixture [81, 22, 49, 22], total 174 data points.",
+        "client_46": "Mixture of 4 letters distributions with mixture [16, 2, 70, 25], total 113 data points.",
+        "client_47": "Mixture of 4 letters distributions with mixture [31, 23, 1, 72], total 127 data points.",
+        "client_48": "Mixture of 4 letters distributions with mixture [49, 55, 18, 13], total 135 data points.",
+        "client_49": "Mixture of 4 letters distributions with mixture [20, 8, 70, 45], total 143 data points.",
+        "client_50": "Mixture of 4 letters distributions with mixture [9, 44, 83, 63], total 199 data points.",
+        "client_51": "Mixture of 4 letters distributions with mixture [46, 103, 13, 13], total 175 data points.",
+        "client_52": "Mixture of 4 letters distributions with mixture [1, 107, 34, 30], total 172 data points.",
+        "client_53": "Mixture of 4 letters distributions with mixture [33, 30, 3, 96], total 162 data points.",
+        "client_54": "Mixture of 4 letters distributions with mixture [0, 50, 59, 2], total 111 data points.",
+        "client_55": "Mixture of 4 letters distributions with mixture [4, 85, 17, 61], total 167 data points.",
+        "client_56": "Mixture of 4 letters distributions with mixture [12, 41, 25, 62], total 140 data points.",
+        "client_57": "Mixture of 4 letters distributions with mixture [3, 12, 114, 19], total 148 data points.",
+        "client_58": "Mixture of 4 letters distributions with mixture [35, 62, 13, 19], total 129 data points.",
+        "client_59": "Mixture of 4 letters distributions with mixture [51, 0, 47, 15], total 113 data points.",
+        "client_60": "Mixture of 4 letters distributions with mixture [68, 14, 26, 55], total 163 data points.",
+        "client_61": "Mixture of 4 letters distributions with mixture [30, 45, 78, 30], total 183 data points.",
+        "client_62": "Mixture of 4 letters distributions with mixture [1, 94, 18, 18], total 131 data points.",
+        "client_63": "Mixture of 4 letters distributions with mixture [83, 16, 17, 56], total 172 data points.",
+        "client_64": "Mixture of 4 letters distributions with mixture [6, 15, 28, 102], total 151 data points.",
+        "client_65": "Mixture of 4 letters distributions with mixture [75, 3, 26, 37], total 141 data points.",
+        "client_66": "Mixture of 4 letters distributions with mixture [24, 4, 46, 44], total 118 data points.",
+        "client_67": "Mixture of 4 letters distributions with mixture [77, 18, 9, 41], total 145 data points.",
+        "client_68": "Mixture of 4 letters distributions with mixture [2, 4, 112, 19], total 137 data points.",
+        "client_69": "Mixture of 4 letters distributions with mixture [10, 14, 4, 97], total 125 data points.",
+        "client_70": "Mixture of 4 letters distributions with mixture [28, 58, 0, 44], total 130 data points.",
+        "client_71": "Mixture of 4 letters distributions with mixture [91, 23, 22, 36], total 172 data points.",
+        "client_72": "Mixture of 4 letters distributions with mixture [17, 38, 48, 32], total 135 data points.",
+        "client_73": "Mixture of 4 letters distributions with mixture [3, 5, 20, 118], total 146 data points.",
+        "client_74": "Mixture of 4 letters distributions with mixture [6, 40, 67, 39], total 152 data points.",
+        "client_75": "Mixture of 4 letters distributions with mixture [15, 7, 103, 11], total 136 data points.",
+        "client_76": "Mixture of 4 letters distributions with mixture [60, 27, 1, 44], total 132 data points.",
+        "client_77": "Mixture of 4 letters distributions with mixture [18, 27, 21, 76], total 142 data points.",
+        "client_78": "Mixture of 4 letters distributions with mixture [28, 11, 46, 22], total 107 data points.",
+        "client_79": "Mixture of 4 letters distributions with mixture [55, 0, 57, 72], total 184 data points.",
+        "client_80": "Mixture of 4 letters distributions with mixture [49, 65, 15, 60], total 189 data points.",
+        "client_81": "Mixture of 4 letters distributions with mixture [42, 22, 105, 27], total 196 data points.",
+        "client_82": "Mixture of 4 letters distributions with mixture [1, 93, 37, 69], total 200 data points.",
+        "client_83": "Mixture of 4 letters distributions with mixture [71, 19, 50, 46], total 186 data points.",
+        "client_84": "Mixture of 4 letters distributions with mixture [11, 66, 36, 46], total 159 data points.",
+        "client_85": "Mixture of 4 letters distributions with mixture [4, 43, 16, 85], total 148 data points.",
+        "client_86": "Mixture of 4 letters distributions with mixture [37, 22, 40, 67], total 166 data points.",
+        "client_87": "Mixture of 4 letters distributions with mixture [69, 22, 23, 22], total 136 data points.",
+        "client_88": "Mixture of 4 letters distributions with mixture [62, 28, 59, 10], total 159 data points.",
+        "client_89": "Mixture of 4 letters distributions with mixture [68, 50, 37, 30], total 185 data points.",
+        "client_90": "Mixture of 4 letters distributions with mixture [52, 30, 32, 22], total 136 data points.",
+        "client_91": "Mixture of 4 letters distributions with mixture [76, 30, 60, 28], total 194 data points.",
+        "client_92": "Mixture of 4 letters distributions with mixture [11, 39, 106, 4], total 160 data points.",
+        "client_93": "Mixture of 4 letters distributions with mixture [42, 31, 63, 29], total 165 data points.",
+        "client_94": "Mixture of 4 letters distributions with mixture [24, 31, 61, 36], total 152 data points.",
+        "client_95": "Mixture of 4 letters distributions with mixture [17, 5, 68, 16], total 106 data points.",
+        "client_96": "Mixture of 4 letters distributions with mixture [75, 18, 12, 19], total 124 data points.",
+        "client_97": "Mixture of 4 letters distributions with mixture [7, 95, 5, 7], total 114 data points.",
+        "client_98": "Mixture of 4 letters distributions with mixture [45, 23, 53, 67], total 188 data points.",
+        "client_99": "Mixture of 4 letters distributions with mixture [5, 58, 17, 33], total 113 data points."
+    },
+    "mixture": {
+        "client_0": [
+            54,
+            40,
+            38,
+            8,
+            140
+        ],
+        "client_1": [
+            127,
+            6,
+            5,
+            6,
+            144
+        ],
+        "client_2": [
+            34,
+            72,
+            0,
+            34,
+            140
+        ],
+        "client_3": [
+            28,
+            2,
+            111,
+            38,
+            179
+        ],
+        "client_4": [
+            122,
+            35,
+            28,
+            5,
+            190
+        ],
+        "client_5": [
+            42,
+            98,
+            24,
+            24,
+            188
+        ],
+        "client_6": [
+            32,
+            64,
+            31,
+            32,
+            159
+        ],
+        "client_7": [
+            73,
+            17,
+            31,
+            49,
+            170
+        ],
+        "client_8": [
+            19,
+            7,
+            77,
+            38,
+            141
+        ],
+        "client_9": [
+            5,
+            61,
+            24,
+            35,
+            125
+        ],
+        "client_10": [
+            102,
+            25,
+            18,
+            7,
+            152
+        ],
+        "client_11": [
+            49,
+            32,
+            2,
+            70,
+            153
+        ],
+        "client_12": [
+            3,
+            66,
+            53,
+            53,
+            175
+        ],
+        "client_13": [
+            7,
+            35,
+            20,
+            65,
+            127
+        ],
+        "client_14": [
+            15,
+            2,
+            75,
+            80,
+            172
+        ],
+        "client_15": [
+            38,
+            31,
+            18,
+            20,
+            107
+        ],
+        "client_16": [
+            11,
+            52,
+            20,
+            62,
+            145
+        ],
+        "client_17": [
+            20,
+            96,
+            67,
+            14,
+            197
+        ],
+        "client_18": [
+            40,
+            14,
+            60,
+            25,
+            139
+        ],
+        "client_19": [
+            19,
+            26,
+            15,
+            44,
+            104
+        ],
+        "client_20": [
+            29,
+            53,
+            21,
+            27,
+            130
+        ],
+        "client_21": [
+            29,
+            46,
+            78,
+            9,
+            162
+        ],
+        "client_22": [
+            35,
+            72,
+            33,
+            9,
+            149
+        ],
+        "client_23": [
+            26,
+            55,
+            34,
+            67,
+            182
+        ],
+        "client_24": [
+            23,
+            12,
+            24,
+            56,
+            115
+        ],
+        "client_25": [
+            79,
+            37,
+            12,
+            48,
+            176
+        ],
+        "client_26": [
+            0,
+            9,
+            46,
+            58,
+            113
+        ],
+        "client_27": [
+            46,
+            17,
+            101,
+            22,
+            186
+        ],
+        "client_28": [
+            46,
+            71,
+            8,
+            54,
+            179
+        ],
+        "client_29": [
+            13,
+            15,
+            83,
+            19,
+            130
+        ],
+        "client_30": [
+            28,
+            34,
+            16,
+            84,
+            162
+        ],
+        "client_31": [
+            7,
+            64,
+            23,
+            76,
+            170
+        ],
+        "client_32": [
+            44,
+            63,
+            8,
+            10,
+            125
+        ],
+        "client_33": [
+            92,
+            20,
+            37,
+            5,
+            154
+        ],
+        "client_34": [
+            72,
+            97,
+            22,
+            3,
+            194
+        ],
+        "client_35": [
+            35,
+            53,
+            53,
+            43,
+            184
+        ],
+        "client_36": [
+            11,
+            48,
+            47,
+            56,
+            162
+        ],
+        "client_37": [
+            31,
+            108,
+            22,
+            20,
+            181
+        ],
+        "client_38": [
+            58,
+            93,
+            4,
+            12,
+            167
+        ],
+        "client_39": [
+            14,
+            38,
+            32,
+            16,
+            100
+        ],
+        "client_40": [
+            28,
+            36,
+            107,
+            10,
+            181
+        ],
+        "client_41": [
+            23,
+            42,
+            5,
+            108,
+            178
+        ],
+        "client_42": [
+            39,
+            102,
+            17,
+            11,
+            169
+        ],
+        "client_43": [
+            8,
+            33,
+            7,
+            120,
+            168
+        ],
+        "client_44": [
+            17,
+            135,
+            22,
+            19,
+            193
+        ],
+        "client_45": [
+            81,
+            22,
+            49,
+            22,
+            174
+        ],
+        "client_46": [
+            16,
+            2,
+            70,
+            25,
+            113
+        ],
+        "client_47": [
+            31,
+            23,
+            1,
+            72,
+            127
+        ],
+        "client_48": [
+            49,
+            55,
+            18,
+            13,
+            135
+        ],
+        "client_49": [
+            20,
+            8,
+            70,
+            45,
+            143
+        ],
+        "client_50": [
+            9,
+            44,
+            83,
+            63,
+            199
+        ],
+        "client_51": [
+            46,
+            103,
+            13,
+            13,
+            175
+        ],
+        "client_52": [
+            1,
+            107,
+            34,
+            30,
+            172
+        ],
+        "client_53": [
+            33,
+            30,
+            3,
+            96,
+            162
+        ],
+        "client_54": [
+            0,
+            50,
+            59,
+            2,
+            111
+        ],
+        "client_55": [
+            4,
+            85,
+            17,
+            61,
+            167
+        ],
+        "client_56": [
+            12,
+            41,
+            25,
+            62,
+            140
+        ],
+        "client_57": [
+            3,
+            12,
+            114,
+            19,
+            148
+        ],
+        "client_58": [
+            35,
+            62,
+            13,
+            19,
+            129
+        ],
+        "client_59": [
+            51,
+            0,
+            47,
+            15,
+            113
+        ],
+        "client_60": [
+            68,
+            14,
+            26,
+            55,
+            163
+        ],
+        "client_61": [
+            30,
+            45,
+            78,
+            30,
+            183
+        ],
+        "client_62": [
+            1,
+            94,
+            18,
+            18,
+            131
+        ],
+        "client_63": [
+            83,
+            16,
+            17,
+            56,
+            172
+        ],
+        "client_64": [
+            6,
+            15,
+            28,
+            102,
+            151
+        ],
+        "client_65": [
+            75,
+            3,
+            26,
+            37,
+            141
+        ],
+        "client_66": [
+            24,
+            4,
+            46,
+            44,
+            118
+        ],
+        "client_67": [
+            77,
+            18,
+            9,
+            41,
+            145
+        ],
+        "client_68": [
+            2,
+            4,
+            112,
+            19,
+            137
+        ],
+        "client_69": [
+            10,
+            14,
+            4,
+            97,
+            125
+        ],
+        "client_70": [
+            28,
+            58,
+            0,
+            44,
+            130
+        ],
+        "client_71": [
+            91,
+            23,
+            22,
+            36,
+            172
+        ],
+        "client_72": [
+            17,
+            38,
+            48,
+            32,
+            135
+        ],
+        "client_73": [
+            3,
+            5,
+            20,
+            118,
+            146
+        ],
+        "client_74": [
+            6,
+            40,
+            67,
+            39,
+            152
+        ],
+        "client_75": [
+            15,
+            7,
+            103,
+            11,
+            136
+        ],
+        "client_76": [
+            60,
+            27,
+            1,
+            44,
+            132
+        ],
+        "client_77": [
+            18,
+            27,
+            21,
+            76,
+            142
+        ],
+        "client_78": [
+            28,
+            11,
+            46,
+            22,
+            107
+        ],
+        "client_79": [
+            55,
+            0,
+            57,
+            72,
+            184
+        ],
+        "client_80": [
+            49,
+            65,
+            15,
+            60,
+            189
+        ],
+        "client_81": [
+            42,
+            22,
+            105,
+            27,
+            196
+        ],
+        "client_82": [
+            1,
+            93,
+            37,
+            69,
+            200
+        ],
+        "client_83": [
+            71,
+            19,
+            50,
+            46,
+            186
+        ],
+        "client_84": [
+            11,
+            66,
+            36,
+            46,
+            159
+        ],
+        "client_85": [
+            4,
+            43,
+            16,
+            85,
+            148
+        ],
+        "client_86": [
+            37,
+            22,
+            40,
+            67,
+            166
+        ],
+        "client_87": [
+            69,
+            22,
+            23,
+            22,
+            136
+        ],
+        "client_88": [
+            62,
+            28,
+            59,
+            10,
+            159
+        ],
+        "client_89": [
+            68,
+            50,
+            37,
+            30,
+            185
+        ],
+        "client_90": [
+            52,
+            30,
+            32,
+            22,
+            136
+        ],
+        "client_91": [
+            76,
+            30,
+            60,
+            28,
+            194
+        ],
+        "client_92": [
+            11,
+            39,
+            106,
+            4,
+            160
+        ],
+        "client_93": [
+            42,
+            31,
+            63,
+            29,
+            165
+        ],
+        "client_94": [
+            24,
+            31,
+            61,
+            36,
+            152
+        ],
+        "client_95": [
+            17,
+            5,
+            68,
+            16,
+            106
+        ],
+        "client_96": [
+            75,
+            18,
+            12,
+            19,
+            124
+        ],
+        "client_97": [
+            7,
+            95,
+            5,
+            7,
+            114
+        ],
+        "client_98": [
+            45,
+            23,
+            53,
+            67,
+            188
+        ],
+        "client_99": [
+            5,
+            58,
+            17,
+            33,
+            113
+        ]
+    }
+}

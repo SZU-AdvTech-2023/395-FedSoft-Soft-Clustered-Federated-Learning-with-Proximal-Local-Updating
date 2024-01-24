@@ -1,0 +1,5 @@
+{
+    "do_selection": true,
+    "estimation_interval": 2,
+    "selection_size": 10
+}

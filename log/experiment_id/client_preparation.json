@@ -1,0 +1,133 @@
+{
+    "ds_description": "(2) Full cifar and full cifar-rotation-90",
+    "num_clusters": 2,
+    "num_classes": 10,
+    "num_clients": 20,
+    "num_samples_min": 3000,
+    "num_samples_max": 3501,
+    "num_samples_test_each": 10000,
+    "client_tags": {
+        "client_0": "Mixture of cifar and cifar-rotation-90 data. 995 full cifar, 2324 full cifar rotation, total 3319 data points.",
+        "client_1": "Mixture of cifar and cifar-rotation-90 data. 960 full cifar, 2243 full cifar rotation, total 3203 data points.",
+        "client_2": "Mixture of cifar and cifar-rotation-90 data. 955 full cifar, 2231 full cifar rotation, total 3186 data points.",
+        "client_3": "Mixture of cifar and cifar-rotation-90 data. 1041 full cifar, 2429 full cifar rotation, total 3470 data points.",
+        "client_4": "Mixture of cifar and cifar-rotation-90 data. 932 full cifar, 2175 full cifar rotation, total 3107 data points.",
+        "client_5": "Mixture of cifar and cifar-rotation-90 data. 987 full cifar, 2304 full cifar rotation, total 3291 data points.",
+        "client_6": "Mixture of cifar and cifar-rotation-90 data. 960 full cifar, 2240 full cifar rotation, total 3200 data points.",
+        "client_7": "Mixture of cifar and cifar-rotation-90 data. 920 full cifar, 2149 full cifar rotation, total 3069 data points.",
+        "client_8": "Mixture of cifar and cifar-rotation-90 data. 1026 full cifar, 2396 full cifar rotation, total 3422 data points.",
+        "client_9": "Mixture of cifar and cifar-rotation-90 data. 904 full cifar, 2112 full cifar rotation, total 3016 data points.",
+        "client_10": "Mixture of cifar and cifar-rotation-90 data. 2144 full cifar, 919 full cifar rotation, total 3063 data points.",
+        "client_11": "Mixture of cifar and cifar-rotation-90 data. 2401 full cifar, 1029 full cifar rotation, total 3430 data points.",
+        "client_12": "Mixture of cifar and cifar-rotation-90 data. 2151 full cifar, 922 full cifar rotation, total 3073 data points.",
+        "client_13": "Mixture of cifar and cifar-rotation-90 data. 2244 full cifar, 963 full cifar rotation, total 3207 data points.",
+        "client_14": "Mixture of cifar and cifar-rotation-90 data. 2105 full cifar, 903 full cifar rotation, total 3008 data points.",
+        "client_15": "Mixture of cifar and cifar-rotation-90 data. 2344 full cifar, 1005 full cifar rotation, total 3349 data points.",
+        "client_16": "Mixture of cifar and cifar-rotation-90 data. 2103 full cifar, 902 full cifar rotation, total 3005 data points.",
+        "client_17": "Mixture of cifar and cifar-rotation-90 data. 2158 full cifar, 925 full cifar rotation, total 3083 data points.",
+        "client_18": "Mixture of cifar and cifar-rotation-90 data. 2427 full cifar, 1041 full cifar rotation, total 3468 data points.",
+        "client_19": "Mixture of cifar and cifar-rotation-90 data. 2431 full cifar, 1043 full cifar rotation, total 3474 data points."
+    },
+    "mixture": {
+        "client_0": [
+            995,
+            2324,
+            3319
+        ],
+        "client_1": [
+            960,
+            2243,
+            3203
+        ],
+        "client_2": [
+            955,
+            2231,
+            3186
+        ],
+        "client_3": [
+            1041,
+            2429,
+            3470
+        ],
+        "client_4": [
+            932,
+            2175,
+            3107
+        ],
+        "client_5": [
+            987,
+            2304,
+            3291
+        ],
+        "client_6": [
+            960,
+            2240,
+            3200
+        ],
+        "client_7": [
+            920,
+            2149,
+            3069
+        ],
+        "client_8": [
+            1026,
+            2396,
+            3422
+        ],
+        "client_9": [
+            904,
+            2112,
+            3016
+        ],
+        "client_10": [
+            2144,
+            919,
+            3063
+        ],
+        "client_11": [
+            2401,
+            1029,
+            3430
+        ],
+        "client_12": [
+            2151,
+            922,
+            3073
+        ],
+        "client_13": [
+            2244,
+            963,
+            3207
+        ],
+        "client_14": [
+            2105,
+            903,
+            3008
+        ],
+        "client_15": [
+            2344,
+            1005,
+            3349
+        ],
+        "client_16": [
+            2103,
+            902,
+            3005
+        ],
+        "client_17": [
+            2158,
+            925,
+            3083
+        ],
+        "client_18": [
+            2427,
+            1041,
+            3468
+        ],
+        "client_19": [
+            2431,
+            1043,
+            3474
+        ]
+    }
+}

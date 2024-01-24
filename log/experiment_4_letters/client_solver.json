@@ -1,0 +1,14 @@
+{
+    "batch_size": 16,
+    "optimizer_type": "Adam",
+    "criterion": "CrossEntropyLoss",
+    "local_epoch": 5,
+    "lr": 1e-05,
+    "lr_scheduler_type": "StepLR",
+    "lr_step": 99999999,
+    "lr_gamma": 1.0,
+    "classification": true,
+    "num_classes": 26,
+    "reg_weight": 0.1,
+    "count_smoother": 0.0001
+}

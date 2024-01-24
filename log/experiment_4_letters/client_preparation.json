@@ -1,0 +1,613 @@
+{
+    "ds_description": "(2) 26 lowercase and 26 uppercase alphabet letters",
+    "num_clusters": 2,
+    "num_classes": 26,
+    "num_clients": 100,
+    "num_samples_min": 100,
+    "num_samples_max": 201,
+    "num_samples_test": "lower = 2000, upper = 2000",
+    "client_tags": {
+        "client_0": "Mixture of lower and upper case alphabet letters. 36 full 26 lowercase letters, 86 full 26 uppercase letters, total 122 data points.",
+        "client_1": "Mixture of lower and upper case alphabet letters. 33 full 26 lowercase letters, 80 full 26 uppercase letters, total 113 data points.",
+        "client_2": "Mixture of lower and upper case alphabet letters. 53 full 26 lowercase letters, 124 full 26 uppercase letters, total 177 data points.",
+        "client_3": "Mixture of lower and upper case alphabet letters. 33 full 26 lowercase letters, 80 full 26 uppercase letters, total 113 data points.",
+        "client_4": "Mixture of lower and upper case alphabet letters. 50 full 26 lowercase letters, 119 full 26 uppercase letters, total 169 data points.",
+        "client_5": "Mixture of lower and upper case alphabet letters. 43 full 26 lowercase letters, 102 full 26 uppercase letters, total 145 data points.",
+        "client_6": "Mixture of lower and upper case alphabet letters. 37 full 26 lowercase letters, 89 full 26 uppercase letters, total 126 data points.",
+        "client_7": "Mixture of lower and upper case alphabet letters. 44 full 26 lowercase letters, 103 full 26 uppercase letters, total 147 data points.",
+        "client_8": "Mixture of lower and upper case alphabet letters. 43 full 26 lowercase letters, 103 full 26 uppercase letters, total 146 data points.",
+        "client_9": "Mixture of lower and upper case alphabet letters. 39 full 26 lowercase letters, 92 full 26 uppercase letters, total 131 data points.",
+        "client_10": "Mixture of lower and upper case alphabet letters. 32 full 26 lowercase letters, 76 full 26 uppercase letters, total 108 data points.",
+        "client_11": "Mixture of lower and upper case alphabet letters. 52 full 26 lowercase letters, 124 full 26 uppercase letters, total 176 data points.",
+        "client_12": "Mixture of lower and upper case alphabet letters. 53 full 26 lowercase letters, 126 full 26 uppercase letters, total 179 data points.",
+        "client_13": "Mixture of lower and upper case alphabet letters. 53 full 26 lowercase letters, 124 full 26 uppercase letters, total 177 data points.",
+        "client_14": "Mixture of lower and upper case alphabet letters. 51 full 26 lowercase letters, 121 full 26 uppercase letters, total 172 data points.",
+        "client_15": "Mixture of lower and upper case alphabet letters. 30 full 26 lowercase letters, 73 full 26 uppercase letters, total 103 data points.",
+        "client_16": "Mixture of lower and upper case alphabet letters. 39 full 26 lowercase letters, 92 full 26 uppercase letters, total 131 data points.",
+        "client_17": "Mixture of lower and upper case alphabet letters. 31 full 26 lowercase letters, 75 full 26 uppercase letters, total 106 data points.",
+        "client_18": "Mixture of lower and upper case alphabet letters. 36 full 26 lowercase letters, 87 full 26 uppercase letters, total 123 data points.",
+        "client_19": "Mixture of lower and upper case alphabet letters. 30 full 26 lowercase letters, 72 full 26 uppercase letters, total 102 data points.",
+        "client_20": "Mixture of lower and upper case alphabet letters. 33 full 26 lowercase letters, 79 full 26 uppercase letters, total 112 data points.",
+        "client_21": "Mixture of lower and upper case alphabet letters. 39 full 26 lowercase letters, 92 full 26 uppercase letters, total 131 data points.",
+        "client_22": "Mixture of lower and upper case alphabet letters. 42 full 26 lowercase letters, 101 full 26 uppercase letters, total 143 data points.",
+        "client_23": "Mixture of lower and upper case alphabet letters. 37 full 26 lowercase letters, 89 full 26 uppercase letters, total 126 data points.",
+        "client_24": "Mixture of lower and upper case alphabet letters. 37 full 26 lowercase letters, 88 full 26 uppercase letters, total 125 data points.",
+        "client_25": "Mixture of lower and upper case alphabet letters. 52 full 26 lowercase letters, 122 full 26 uppercase letters, total 174 data points.",
+        "client_26": "Mixture of lower and upper case alphabet letters. 39 full 26 lowercase letters, 94 full 26 uppercase letters, total 133 data points.",
+        "client_27": "Mixture of lower and upper case alphabet letters. 53 full 26 lowercase letters, 126 full 26 uppercase letters, total 179 data points.",
+        "client_28": "Mixture of lower and upper case alphabet letters. 36 full 26 lowercase letters, 86 full 26 uppercase letters, total 122 data points.",
+        "client_29": "Mixture of lower and upper case alphabet letters. 42 full 26 lowercase letters, 100 full 26 uppercase letters, total 142 data points.",
+        "client_30": "Mixture of lower and upper case alphabet letters. 45 full 26 lowercase letters, 107 full 26 uppercase letters, total 152 data points.",
+        "client_31": "Mixture of lower and upper case alphabet letters. 60 full 26 lowercase letters, 140 full 26 uppercase letters, total 200 data points.",
+        "client_32": "Mixture of lower and upper case alphabet letters. 36 full 26 lowercase letters, 84 full 26 uppercase letters, total 120 data points.",
+        "client_33": "Mixture of lower and upper case alphabet letters. 36 full 26 lowercase letters, 87 full 26 uppercase letters, total 123 data points.",
+        "client_34": "Mixture of lower and upper case alphabet letters. 48 full 26 lowercase letters, 112 full 26 uppercase letters, total 160 data points.",
+        "client_35": "Mixture of lower and upper case alphabet letters. 35 full 26 lowercase letters, 83 full 26 uppercase letters, total 118 data points.",
+        "client_36": "Mixture of lower and upper case alphabet letters. 42 full 26 lowercase letters, 98 full 26 uppercase letters, total 140 data points.",
+        "client_37": "Mixture of lower and upper case alphabet letters. 48 full 26 lowercase letters, 115 full 26 uppercase letters, total 163 data points.",
+        "client_38": "Mixture of lower and upper case alphabet letters. 59 full 26 lowercase letters, 138 full 26 uppercase letters, total 197 data points.",
+        "client_39": "Mixture of lower and upper case alphabet letters. 48 full 26 lowercase letters, 113 full 26 uppercase letters, total 161 data points.",
+        "client_40": "Mixture of lower and upper case alphabet letters. 47 full 26 lowercase letters, 111 full 26 uppercase letters, total 158 data points.",
+        "client_41": "Mixture of lower and upper case alphabet letters. 52 full 26 lowercase letters, 124 full 26 uppercase letters, total 176 data points.",
+        "client_42": "Mixture of lower and upper case alphabet letters. 55 full 26 lowercase letters, 131 full 26 uppercase letters, total 186 data points.",
+        "client_43": "Mixture of lower and upper case alphabet letters. 37 full 26 lowercase letters, 89 full 26 uppercase letters, total 126 data points.",
+        "client_44": "Mixture of lower and upper case alphabet letters. 39 full 26 lowercase letters, 93 full 26 uppercase letters, total 132 data points.",
+        "client_45": "Mixture of lower and upper case alphabet letters. 50 full 26 lowercase letters, 117 full 26 uppercase letters, total 167 data points.",
+        "client_46": "Mixture of lower and upper case alphabet letters. 46 full 26 lowercase letters, 110 full 26 uppercase letters, total 156 data points.",
+        "client_47": "Mixture of lower and upper case alphabet letters. 39 full 26 lowercase letters, 91 full 26 uppercase letters, total 130 data points.",
+        "client_48": "Mixture of lower and upper case alphabet letters. 56 full 26 lowercase letters, 132 full 26 uppercase letters, total 188 data points.",
+        "client_49": "Mixture of lower and upper case alphabet letters. 46 full 26 lowercase letters, 110 full 26 uppercase letters, total 156 data points.",
+        "client_50": "Mixture of lower and upper case alphabet letters. 70 full 26 lowercase letters, 31 full 26 uppercase letters, total 101 data points.",
+        "client_51": "Mixture of lower and upper case alphabet letters. 114 full 26 lowercase letters, 50 full 26 uppercase letters, total 164 data points.",
+        "client_52": "Mixture of lower and upper case alphabet letters. 72 full 26 lowercase letters, 31 full 26 uppercase letters, total 103 data points.",
+        "client_53": "Mixture of lower and upper case alphabet letters. 100 full 26 lowercase letters, 43 full 26 uppercase letters, total 143 data points.",
+        "client_54": "Mixture of lower and upper case alphabet letters. 101 full 26 lowercase letters, 44 full 26 uppercase letters, total 145 data points.",
+        "client_55": "Mixture of lower and upper case alphabet letters. 72 full 26 lowercase letters, 31 full 26 uppercase letters, total 103 data points.",
+        "client_56": "Mixture of lower and upper case alphabet letters. 84 full 26 lowercase letters, 36 full 26 uppercase letters, total 120 data points.",
+        "client_57": "Mixture of lower and upper case alphabet letters. 135 full 26 lowercase letters, 58 full 26 uppercase letters, total 193 data points.",
+        "client_58": "Mixture of lower and upper case alphabet letters. 78 full 26 lowercase letters, 34 full 26 uppercase letters, total 112 data points.",
+        "client_59": "Mixture of lower and upper case alphabet letters. 74 full 26 lowercase letters, 33 full 26 uppercase letters, total 107 data points.",
+        "client_60": "Mixture of lower and upper case alphabet letters. 74 full 26 lowercase letters, 32 full 26 uppercase letters, total 106 data points.",
+        "client_61": "Mixture of lower and upper case alphabet letters. 102 full 26 lowercase letters, 45 full 26 uppercase letters, total 147 data points.",
+        "client_62": "Mixture of lower and upper case alphabet letters. 133 full 26 lowercase letters, 57 full 26 uppercase letters, total 190 data points.",
+        "client_63": "Mixture of lower and upper case alphabet letters. 90 full 26 lowercase letters, 39 full 26 uppercase letters, total 129 data points.",
+        "client_64": "Mixture of lower and upper case alphabet letters. 114 full 26 lowercase letters, 50 full 26 uppercase letters, total 164 data points.",
+        "client_65": "Mixture of lower and upper case alphabet letters. 73 full 26 lowercase letters, 32 full 26 uppercase letters, total 105 data points.",
+        "client_66": "Mixture of lower and upper case alphabet letters. 79 full 26 lowercase letters, 34 full 26 uppercase letters, total 113 data points.",
+        "client_67": "Mixture of lower and upper case alphabet letters. 85 full 26 lowercase letters, 37 full 26 uppercase letters, total 122 data points.",
+        "client_68": "Mixture of lower and upper case alphabet letters. 86 full 26 lowercase letters, 37 full 26 uppercase letters, total 123 data points.",
+        "client_69": "Mixture of lower and upper case alphabet letters. 113 full 26 lowercase letters, 49 full 26 uppercase letters, total 162 data points.",
+        "client_70": "Mixture of lower and upper case alphabet letters. 109 full 26 lowercase letters, 47 full 26 uppercase letters, total 156 data points.",
+        "client_71": "Mixture of lower and upper case alphabet letters. 100 full 26 lowercase letters, 43 full 26 uppercase letters, total 143 data points.",
+        "client_72": "Mixture of lower and upper case alphabet letters. 137 full 26 lowercase letters, 59 full 26 uppercase letters, total 196 data points.",
+        "client_73": "Mixture of lower and upper case alphabet letters. 104 full 26 lowercase letters, 45 full 26 uppercase letters, total 149 data points.",
+        "client_74": "Mixture of lower and upper case alphabet letters. 132 full 26 lowercase letters, 57 full 26 uppercase letters, total 189 data points.",
+        "client_75": "Mixture of lower and upper case alphabet letters. 74 full 26 lowercase letters, 33 full 26 uppercase letters, total 107 data points.",
+        "client_76": "Mixture of lower and upper case alphabet letters. 93 full 26 lowercase letters, 41 full 26 uppercase letters, total 134 data points.",
+        "client_77": "Mixture of lower and upper case alphabet letters. 123 full 26 lowercase letters, 54 full 26 uppercase letters, total 177 data points.",
+        "client_78": "Mixture of lower and upper case alphabet letters. 109 full 26 lowercase letters, 48 full 26 uppercase letters, total 157 data points.",
+        "client_79": "Mixture of lower and upper case alphabet letters. 134 full 26 lowercase letters, 58 full 26 uppercase letters, total 192 data points.",
+        "client_80": "Mixture of lower and upper case alphabet letters. 124 full 26 lowercase letters, 54 full 26 uppercase letters, total 178 data points.",
+        "client_81": "Mixture of lower and upper case alphabet letters. 118 full 26 lowercase letters, 52 full 26 uppercase letters, total 170 data points.",
+        "client_82": "Mixture of lower and upper case alphabet letters. 86 full 26 lowercase letters, 37 full 26 uppercase letters, total 123 data points.",
+        "client_83": "Mixture of lower and upper case alphabet letters. 71 full 26 lowercase letters, 31 full 26 uppercase letters, total 102 data points.",
+        "client_84": "Mixture of lower and upper case alphabet letters. 100 full 26 lowercase letters, 43 full 26 uppercase letters, total 143 data points.",
+        "client_85": "Mixture of lower and upper case alphabet letters. 137 full 26 lowercase letters, 59 full 26 uppercase letters, total 196 data points.",
+        "client_86": "Mixture of lower and upper case alphabet letters. 83 full 26 lowercase letters, 36 full 26 uppercase letters, total 119 data points.",
+        "client_87": "Mixture of lower and upper case alphabet letters. 74 full 26 lowercase letters, 32 full 26 uppercase letters, total 106 data points.",
+        "client_88": "Mixture of lower and upper case alphabet letters. 73 full 26 lowercase letters, 32 full 26 uppercase letters, total 105 data points.",
+        "client_89": "Mixture of lower and upper case alphabet letters. 113 full 26 lowercase letters, 49 full 26 uppercase letters, total 162 data points.",
+        "client_90": "Mixture of lower and upper case alphabet letters. 137 full 26 lowercase letters, 60 full 26 uppercase letters, total 197 data points.",
+        "client_91": "Mixture of lower and upper case alphabet letters. 118 full 26 lowercase letters, 51 full 26 uppercase letters, total 169 data points.",
+        "client_92": "Mixture of lower and upper case alphabet letters. 84 full 26 lowercase letters, 36 full 26 uppercase letters, total 120 data points.",
+        "client_93": "Mixture of lower and upper case alphabet letters. 77 full 26 lowercase letters, 33 full 26 uppercase letters, total 110 data points.",
+        "client_94": "Mixture of lower and upper case alphabet letters. 102 full 26 lowercase letters, 45 full 26 uppercase letters, total 147 data points.",
+        "client_95": "Mixture of lower and upper case alphabet letters. 130 full 26 lowercase letters, 56 full 26 uppercase letters, total 186 data points.",
+        "client_96": "Mixture of lower and upper case alphabet letters. 131 full 26 lowercase letters, 57 full 26 uppercase letters, total 188 data points.",
+        "client_97": "Mixture of lower and upper case alphabet letters. 125 full 26 lowercase letters, 55 full 26 uppercase letters, total 180 data points.",
+        "client_98": "Mixture of lower and upper case alphabet letters. 109 full 26 lowercase letters, 47 full 26 uppercase letters, total 156 data points.",
+        "client_99": "Mixture of lower and upper case alphabet letters. 126 full 26 lowercase letters, 55 full 26 uppercase letters, total 181 data points."
+    },
+    "mixture": {
+        "client_0": [
+            36,
+            86,
+            122
+        ],
+        "client_1": [
+            33,
+            80,
+            113
+        ],
+        "client_2": [
+            53,
+            124,
+            177
+        ],
+        "client_3": [
+            33,
+            80,
+            113
+        ],
+        "client_4": [
+            50,
+            119,
+            169
+        ],
+        "client_5": [
+            43,
+            102,
+            145
+        ],
+        "client_6": [
+            37,
+            89,
+            126
+        ],
+        "client_7": [
+            44,
+            103,
+            147
+        ],
+        "client_8": [
+            43,
+            103,
+            146
+        ],
+        "client_9": [
+            39,
+            92,
+            131
+        ],
+        "client_10": [
+            32,
+            76,
+            108
+        ],
+        "client_11": [
+            52,
+            124,
+            176
+        ],
+        "client_12": [
+            53,
+            126,
+            179
+        ],
+        "client_13": [
+            53,
+            124,
+            177
+        ],
+        "client_14": [
+            51,
+            121,
+            172
+        ],
+        "client_15": [
+            30,
+            73,
+            103
+        ],
+        "client_16": [
+            39,
+            92,
+            131
+        ],
+        "client_17": [
+            31,
+            75,
+            106
+        ],
+        "client_18": [
+            36,
+            87,
+            123
+        ],
+        "client_19": [
+            30,
+            72,
+            102
+        ],
+        "client_20": [
+            33,
+            79,
+            112
+        ],
+        "client_21": [
+            39,
+            92,
+            131
+        ],
+        "client_22": [
+            42,
+            101,
+            143
+        ],
+        "client_23": [
+            37,
+            89,
+            126
+        ],
+        "client_24": [
+            37,
+            88,
+            125
+        ],
+        "client_25": [
+            52,
+            122,
+            174
+        ],
+        "client_26": [
+            39,
+            94,
+            133
+        ],
+        "client_27": [
+            53,
+            126,
+            179
+        ],
+        "client_28": [
+            36,
+            86,
+            122
+        ],
+        "client_29": [
+            42,
+            100,
+            142
+        ],
+        "client_30": [
+            45,
+            107,
+            152
+        ],
+        "client_31": [
+            60,
+            140,
+            200
+        ],
+        "client_32": [
+            36,
+            84,
+            120
+        ],
+        "client_33": [
+            36,
+            87,
+            123
+        ],
+        "client_34": [
+            48,
+            112,
+            160
+        ],
+        "client_35": [
+            35,
+            83,
+            118
+        ],
+        "client_36": [
+            42,
+            98,
+            140
+        ],
+        "client_37": [
+            48,
+            115,
+            163
+        ],
+        "client_38": [
+            59,
+            138,
+            197
+        ],
+        "client_39": [
+            48,
+            113,
+            161
+        ],
+        "client_40": [
+            47,
+            111,
+            158
+        ],
+        "client_41": [
+            52,
+            124,
+            176
+        ],
+        "client_42": [
+            55,
+            131,
+            186
+        ],
+        "client_43": [
+            37,
+            89,
+            126
+        ],
+        "client_44": [
+            39,
+            93,
+            132
+        ],
+        "client_45": [
+            50,
+            117,
+            167
+        ],
+        "client_46": [
+            46,
+            110,
+            156
+        ],
+        "client_47": [
+            39,
+            91,
+            130
+        ],
+        "client_48": [
+            56,
+            132,
+            188
+        ],
+        "client_49": [
+            46,
+            110,
+            156
+        ],
+        "client_50": [
+            70,
+            31,
+            101
+        ],
+        "client_51": [
+            114,
+            50,
+            164
+        ],
+        "client_52": [
+            72,
+            31,
+            103
+        ],
+        "client_53": [
+            100,
+            43,
+            143
+        ],
+        "client_54": [
+            101,
+            44,
+            145
+        ],
+        "client_55": [
+            72,
+            31,
+            103
+        ],
+        "client_56": [
+            84,
+            36,
+            120
+        ],
+        "client_57": [
+            135,
+            58,
+            193
+        ],
+        "client_58": [
+            78,
+            34,
+            112
+        ],
+        "client_59": [
+            74,
+            33,
+            107
+        ],
+        "client_60": [
+            74,
+            32,
+            106
+        ],
+        "client_61": [
+            102,
+            45,
+            147
+        ],
+        "client_62": [
+            133,
+            57,
+            190
+        ],
+        "client_63": [
+            90,
+            39,
+            129
+        ],
+        "client_64": [
+            114,
+            50,
+            164
+        ],
+        "client_65": [
+            73,
+            32,
+            105
+        ],
+        "client_66": [
+            79,
+            34,
+            113
+        ],
+        "client_67": [
+            85,
+            37,
+            122
+        ],
+        "client_68": [
+            86,
+            37,
+            123
+        ],
+        "client_69": [
+            113,
+            49,
+            162
+        ],
+        "client_70": [
+            109,
+            47,
+            156
+        ],
+        "client_71": [
+            100,
+            43,
+            143
+        ],
+        "client_72": [
+            137,
+            59,
+            196
+        ],
+        "client_73": [
+            104,
+            45,
+            149
+        ],
+        "client_74": [
+            132,
+            57,
+            189
+        ],
+        "client_75": [
+            74,
+            33,
+            107
+        ],
+        "client_76": [
+            93,
+            41,
+            134
+        ],
+        "client_77": [
+            123,
+            54,
+            177
+        ],
+        "client_78": [
+            109,
+            48,
+            157
+        ],
+        "client_79": [
+            134,
+            58,
+            192
+        ],
+        "client_80": [
+            124,
+            54,
+            178
+        ],
+        "client_81": [
+            118,
+            52,
+            170
+        ],
+        "client_82": [
+            86,
+            37,
+            123
+        ],
+        "client_83": [
+            71,
+            31,
+            102
+        ],
+        "client_84": [
+            100,
+            43,
+            143
+        ],
+        "client_85": [
+            137,
+            59,
+            196
+        ],
+        "client_86": [
+            83,
+            36,
+            119
+        ],
+        "client_87": [
+            74,
+            32,
+            106
+        ],
+        "client_88": [
+            73,
+            32,
+            105
+        ],
+        "client_89": [
+            113,
+            49,
+            162
+        ],
+        "client_90": [
+            137,
+            60,
+            197
+        ],
+        "client_91": [
+            118,
+            51,
+            169
+        ],
+        "client_92": [
+            84,
+            36,
+            120
+        ],
+        "client_93": [
+            77,
+            33,
+            110
+        ],
+        "client_94": [
+            102,
+            45,
+            147
+        ],
+        "client_95": [
+            130,
+            56,
+            186
+        ],
+        "client_96": [
+            131,
+            57,
+            188
+        ],
+        "client_97": [
+            125,
+            55,
+            180
+        ],
+        "client_98": [
+            109,
+            47,
+            156
+        ],
+        "client_99": [
+            126,
+            55,
+            181
+        ]
+    }
+}

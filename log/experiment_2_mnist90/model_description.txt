@@ -1,0 +1,8 @@
+MnistMLP(
+  (net): Sequential(
+    (0): Linear(in_features=784, out_features=200, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=200, out_features=10, bias=True)
+    (3): Softmax(dim=2)
+  )
+)
